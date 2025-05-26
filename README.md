@@ -33,6 +33,15 @@ Abaixo, segue os scripts SQL separados por tipo:
 - Projeto Windows Forms
 - Biblioteca Entity Framework para SQL Server (nativo)
 
+### Passos para execução do CRUD
+
+1. Criar banco de dados pelo docker.
+```
+docker run xyz
+```
+2. ...
+   
+
 [Codigo Fonte](crud/)
 
 ### Relatório Final

@@ -33,7 +33,7 @@ Abaixo, segue os scripts SQL separados por tipo:
 - Projeto Windows Forms
 - Biblioteca Entity Framework para SQL Server (nativo)
 
-[Codigo Fonte](fonte/)
+[Codigo Fonte](crud/)
 
 ### Relatório Final
 O relatório final está disponível no arquivo [template1.docx](relatorio/template1.docx).

@@ -1,7 +1,10 @@
 ## Projeto Sistema de Atividades Especiais - GRUPO A
 
+Este projeto consiste na criação de um modelo físico de um banco de dados para um sistema XYZ.
+O projeto foi desenvolvido em C# .NET, criando um CRUD para cadastro dos itens xyz, onde a aplicacao faz conexão com o banco de dados através de uma biblioteca chamada entity framework e realiza operações de adição, aualização e deleção dos dados, usando todos os conceitos e dinâmicas práticas de SQL desenvolvidas em aula.
+
 ### Integrantes
-Jorge Luiz da Silva - @jlsilva01<br>
+Jorge Luiz da Silva - jlsilva01<br>
 Integrante 2 - conta github<br>
 Integrante 3 - conta github<br>
 ...
@@ -20,12 +23,12 @@ Para este projeto foi utilizado o banco de dados [Azure SQL](https://azure.micro
 Este é o procedimento para criação do banco de dados Azure SQL [Criando SQL Azure serverless no Azure gratuito - Sem cartão de crédito](https://github.com/jlsilva01/sql-azure-satc).
 
 Abaixo, segue os scripts SQL separados por tipo:
-+ DDL [ddl.sql](scripts_sql/ddl.sql)
-+ Índices [indices.sql](scripts_sql/indices.sql)
-+ DML [dml.sql](scripts_sql/dml.sql)
-+ Triggers [triggers.sql](scripts_sql/triggers.sql)
-+ Stored Procedures [stored_procedures.sql](scripts_sql/stored_procedures.sql)
-+ Functions [functions.sql](scripts_sql/functions.sql)
++ [Tabelas](scripts/ddl/tabelas)
++ [Índices](scripts/ddl/indices)
++ [Gatilhos](scripts/ddl/gatilhos)
++ [Procedimentos armazenados](scripts/ddl/procedimentos-armazenados)
++ [Funções](scripts/ddl/funcoes)
++ [DML](scripts/dml)
 
 ### Código Fonte do CRUD
 - Linguagem de Programação C# .NET.<br>
@@ -33,7 +36,16 @@ Abaixo, segue os scripts SQL separados por tipo:
 - Projeto Windows Forms
 - Biblioteca Entity Framework para SQL Server (nativo)
 
-[Codigo Fonte](fonte/)
+### Passos para execução do CRUD
+
+1. Criar banco de dados pelo docker.
+```
+docker run xyz
+```
+2. ...
+   
+
+[Codigo Fonte](crud/)
 
 ### Relatório Final
 O relatório final está disponível no arquivo [template1.docx](relatorio/template1.docx).

@@ -48,4 +48,4 @@ docker run xyz
 [Codigo Fonte](crud/)
 
 ### Relatório Final
-O relatório final está disponível no arquivo [template1.docx](relatorio/template1.docx).
+O relatório final está disponível no arquivo [relatorio-final/template1.docx](relatorio/template1.docx).

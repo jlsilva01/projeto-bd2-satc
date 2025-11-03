@@ -22,6 +22,9 @@ As informações sobre as tabelas e índices foram documentados na planilha [tem
 Para este projeto foi utilizado o banco de dados [Azure SQL](https://azure.microsoft.com/pt-br/products/azure-sql/database) <br>
 Este é o procedimento para criação do banco de dados Azure SQL [Criando SQL Azure serverless no Azure gratuito - Sem cartão de crédito](https://github.com/jlsilva01/sql-azure-satc).
 
+### Referências Bibliográticas
+Colocar aqui as referencias de artigos, sites, outros repositórios e livros que usou para o projeto.
+
 Abaixo, segue os scripts SQL separados por tipo:
 + [Tabelas](scripts/ddl/tabelas)
 + [Índices](scripts/ddl/indices)

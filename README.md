@@ -1,4 +1,4 @@
-## Projeto Sistema de Atividades Especiais - GRUPO A1
+## Projeto Sistema de Atividades Especiais - GRUPO A
 
 Este projeto consiste na criação de um modelo físico de um banco de dados para um sistema XYZ.
 O projeto foi desenvolvido em C# .NET, criando um CRUD para cadastro dos itens xyz, onde a aplicacao faz conexão com o banco de dados através de uma biblioteca chamada entity framework e realiza operações de adição, aualização e deleção dos dados, usando todos os conceitos e dinâmicas práticas de SQL desenvolvidas em aula.
@@ -22,9 +22,6 @@ As informações sobre as tabelas e índices foram documentados na planilha [tem
 Para este projeto foi utilizado o banco de dados [Azure SQL](https://azure.microsoft.com/pt-br/products/azure-sql/database) <br>
 Este é o procedimento para criação do banco de dados Azure SQL [Criando SQL Azure serverless no Azure gratuito - Sem cartão de crédito](https://github.com/jlsilva01/sql-azure-satc).
 
-### Referências Bibliográticas
-Colocar aqui as referencias de artigos, sites, outros repositórios e livros que usou para o projeto.
-
 Abaixo, segue os scripts SQL separados por tipo:
 + [Tabelas](scripts/ddl/tabelas)
 + [Índices](scripts/ddl/indices)
@@ -46,9 +43,11 @@ Abaixo, segue os scripts SQL separados por tipo:
 docker run xyz
 ```
 2. ...
-   
 
 [Codigo Fonte](crud/)
 
 ### Relatório Final
 O relatório final está disponível no arquivo [relatorio-final/template1.docx](relatorio/template1.docx).
+
+### Referências Bibliográticas
+Colocar aqui as referencias de artigos, sites, outros repositórios e livros que usou para o projeto.

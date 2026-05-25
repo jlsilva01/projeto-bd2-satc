@@ -31,6 +31,9 @@ Abaixo, segue os scripts SQL separados por tipo:
 + [DML](scripts/dml)
 
 ### Código Fonte do CRUD
+
+Coloque aqui a descrição de todas as ferramentas e tecnologias que usou para desenvolvimento do seu projeto.
+
 - Linguagem de Programação C# .NET.<br>
 - Framework .NET 4.6
 - Projeto Windows Forms
@@ -38,11 +41,16 @@ Abaixo, segue os scripts SQL separados por tipo:
 
 ### Passos para execução do CRUD
 
-1. Criar banco de dados pelo docker.
+Coloque aqui todos os códigos passo-a-passo para que outra pessoa possa reproduzir o seu projeto.
+
+1. Instrução 1.
 ```
-docker run xyz
+código 1
 ```
-2. ...
+1. Instrução 2.
+```
+código 2
+```
 
 [Codigo Fonte](crud/)
 
@@ -50,4 +58,5 @@ docker run xyz
 O relatório final está disponível no arquivo [relatorio-final/template1.docx](relatorio/template1.docx).
 
 ### Referências Bibliográticas
-Colocar aqui as referencias de artigos, sites, outros repositórios e livros que usou para o projeto.
+
+Coloque aqui as referencias de artigos, links de sites, videos, outros repositórios e livros que usou para desenvolvimento do projeto.
